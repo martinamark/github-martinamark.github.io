@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  position: relative;
+  top: -25px;
+  width: 1200px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  background: bottom/100% no-repeat url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h1 {
+  position: absolute;
+  font-size: 68px;
+  left: 23%;
+  top: 58%;
+}
+
+h2 {
+  position: absolute;
+  font-size: 35px;
+  left: 23%;
+  top: 55%
+}
+
+main {
+  position: relative;
+  margin: 0 440px 0 440px;
+  line-height: 150%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12pt;
+}
+
+blockquote {
+  display: flex;
+  font-size: 24pt;
+  font-family: Abril Fatface, cursive;
+  padding: 40px;
+  margin: 0;
+  background: #404142;
+  color: white;
+  line-height: 150%;
+  width: 600px;
+}
+
+blockquote::before {
+  content:"“";
+  position: relative;
+  font-size: 72pt;
+  bottom: 20px;
+  
+}
+
+li {
+  list-style-type: square;
+}
+
+.line {
+  background: #222;
+  height: 5px;
+  margin: 50px 0 50px 0;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0;
+}
